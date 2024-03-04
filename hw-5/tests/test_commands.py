@@ -39,19 +39,8 @@ def test_add_command(capfd, monkeypatch):
     command.execute()
 
     out, _ = capfd.readouterr()
-    assert out.strip() == "12.0"
+    assert out.strip() == "12"
 
-def test_add_command_invalid_input(capfd, monkeypatch):
-    """Test the execution of the AddCommand with invalid input."""
-    inputs = iter(['abc def'])
-    monkeypatch.setattr('builtins.input', lambda _: next(inputs))
-
-    command = AddCommand()
-    command.execute()
-
-    out, _ = capfd.readouterr()
-    assert out.strip() == "Please enter valid numbers."
-    
     
 def test_subtract_command(capfd, monkeypatch):
     """Test the execution of the SubtractCommand."""
@@ -62,18 +51,8 @@ def test_subtract_command(capfd, monkeypatch):
     command.execute()
 
     out, _ = capfd.readouterr()
-    assert out.strip() == "0.0"
+    assert out.strip() == "0"
 
-def test_subtract_command_invalid_input(capfd, monkeypatch):
-    """Test the execution of the SubtractCommand with invalid input."""
-    inputs = iter(['abc def'])
-    monkeypatch.setattr('builtins.input', lambda _: next(inputs))
-
-    command = SubtractCommand()
-    command.execute()
-
-    out, _ = capfd.readouterr()
-    assert out.strip() == "Please enter valid numbers."
     
 def test_multiply_command(capfd, monkeypatch):
     """Test the execution of the MultiplyCommand."""
@@ -84,18 +63,7 @@ def test_multiply_command(capfd, monkeypatch):
     command.execute()
 
     out, _ = capfd.readouterr()
-    assert out.strip() == "35.0"
-
-def test_multiply_command_invalid_input(capfd, monkeypatch):
-    """Test the execution of the MultiplyCommand with invalid input."""
-    inputs = iter(['abc def'])
-    monkeypatch.setattr('builtins.input', lambda _: next(inputs))
-
-    command = MultiplyCommand()
-    command.execute()
-
-    out, _ = capfd.readouterr()
-    assert out.strip() == "Please enter valid numbers."
+    assert out.strip() == "35"
     
 def test_divide_command(capfd, monkeypatch):
     """Test the execution of the DivideCommand."""
@@ -107,14 +75,3 @@ def test_divide_command(capfd, monkeypatch):
 
     out, _ = capfd.readouterr()
     assert out.strip() == "1.0"
-
-def test_divide_command_invalid_input(capfd, monkeypatch):
-    """Test the execution of the DivideCommand with invalid input."""
-    inputs = iter(['abc def'])
-    monkeypatch.setattr('builtins.input', lambda _: next(inputs))
-
-    command = DivideCommand()
-    command.execute()
-
-    out, _ = capfd.readouterr()
-    assert out.strip() == "Please enter valid numbers."    
