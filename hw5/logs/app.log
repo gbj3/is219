@@ -5,3 +5,24 @@
 2024-03-07 22:39:11,846 - root - INFO - Logging configured.
 2024-03-07 22:39:11,857 - root - INFO - Application started. Type 'exit' to exit.
 2024-03-07 22:39:22,553 - root - INFO - Application shutdown.
+2024-03-21 20:02:25,403 - root - INFO - Logging configured.
+2024-03-21 20:02:25,533 - root - INFO - Environment variables loaded.
+2024-03-21 20:02:25,541 - root - INFO - Logging configured.
+2024-03-21 20:02:25,573 - root - INFO - Environment variables loaded.
+2024-03-21 20:02:25,576 - root - INFO - Logging configured.
+2024-03-21 20:02:25,602 - root - INFO - Environment variables loaded.
+2024-03-21 20:02:25,604 - root - INFO - Logging configured.
+2024-03-21 20:04:58,960 - root - INFO - Logging configured.
+2024-03-21 20:04:59,069 - root - INFO - Environment variables loaded.
+2024-03-21 20:04:59,078 - root - INFO - Logging configured.
+2024-03-21 20:04:59,106 - root - INFO - Environment variables loaded.
+2024-03-21 20:04:59,110 - root - INFO - Logging configured.
+2024-03-21 20:04:59,138 - root - INFO - Environment variables loaded.
+2024-03-21 20:04:59,140 - root - INFO - Logging configured.
+2024-03-21 20:06:24,888 - root - INFO - Logging configured.
+2024-03-21 20:06:25,450 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-21 20:06:28,952 - root - INFO - The directory './data' is created
+2024-03-21 20:06:28,956 - root - INFO - States saved to CSV at './data/states.csv'.
+2024-03-21 20:06:28,957 - root - INFO - the relative path  to save my file is ./data/gpt_states.csv
+2024-03-21 20:06:28,957 - root - INFO - the absolute path  to save my file is /home/gabri/is219/is219/hw5/data/gpt_states.csv
+2024-03-21 20:06:28,958 - root - INFO - Application shutdown.
