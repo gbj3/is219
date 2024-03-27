@@ -1,3 +1,3 @@
-<img href="./qr_codes/QRCode_20240326213549.png">
+<img src="./qr_codes/QRCode_20240326213549.png" alt="qr code">
 
-<img href="./qr-successful-log.PNG">
+<img src="./qr-successful-log.PNG" alt="log">
